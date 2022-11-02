@@ -1,0 +1,24 @@
+
+body{font-family: 'Roboto-Regular', sans-serif; background-color: #1C1C1C; overflow: auto;}
+a:hover{text-decoration: none;color:inherit;}
+a{color:inherit}
+.line-1{-webkit-line-clamp: 1;}
+.line-2{-webkit-line-clamp: 2;}
+.line-3{-webkit-line-clamp: 3;}
+.line-4{-webkit-line-clamp: 4;}
+.line-5{-webkit-line-clamp: 5;}
+.line-6{-webkit-line-clamp: 6;}
+.line-1, .line-2, .line-3, .line-4, .line-5, .line-6{display: block;display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;}
+.bg-transparent{background-color: transparent}
+.bg-dark-1{background-color: #1C1C1C}
+.bg-dark-2{background-color: #2A2A2A}
+.bg-light-1{background-color: #353535}
+
+
+@media screen and (max-width: 1400px){}
+@media screen and (max-width: 1200px){}
+@media screen and (max-width: 992px){}
+@media screen and (max-width: 768px){}
+@media screen and (max-width: 576px){}
+@media screen and (max-width: 380px){}
+
